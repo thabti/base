@@ -1,0 +1,10 @@
+node_modules/*
+.tags*
+*.log
+tmp
+dist
+.nyc_output
+*.iml
+tests_output
+node_modules/
+.vscode

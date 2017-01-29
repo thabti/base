@@ -1,0 +1,41 @@
+{
+  "presets": [
+    [
+      "es2015",
+      {
+        "modules": false
+      }
+    ],
+    "stage-2",
+    "react"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-react-require",
+    "transform-class-properties"
+  ],
+  "env": {
+    "production": {
+      "presets": [
+        "es2015",
+        "stage-2",
+        "react"
+      ],
+      "plugins": [
+        "transform-react-require",
+        "transform-class-properties"
+      ]
+    },
+    "test": {
+      "presets": [
+        "es2015",
+        "stage-2",
+        "react"
+      ],
+      "plugins": [
+        "transform-react-require",
+        "transform-class-properties"
+      ]
+    }
+  }
+}

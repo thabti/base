@@ -1,0 +1,72 @@
+// 20170128154403
+// https://raw.githubusercontent.com/propattern/patterns/master/.eslintrc?token=ACfElLj8J7ptLmdyOsGUsb_Z4yT1FlxXks5YlfbDwA%3D%3D
+{
+	"extends": "eslint:recommended",
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"classes": true,
+			"jsx": true,
+			"experimentalObjectRestSpread": true
+		}
+	},
+	"plugins": [
+		"react"
+	],
+	"env": {
+		"mocha": true,
+		"node": true,
+		"es6": true,
+		"browser": true
+	},
+	"rules": {
+		"quotes": [
+			1,
+			"single"
+		],
+		"eqeqeq": 2,
+		"curly": 1,
+		"no-multiple-empty-lines": [
+			2,
+			{
+				"max": 1
+			}
+		],
+		"no-console": 0,
+		"camelcase": 1,
+		"consistent-this": [
+			2,
+			"self"
+		],
+		"brace-style": [
+			2,
+			"stroustrup"
+		],
+		"eol-last": 0,
+		"comma-spacing": 1,
+		"space-before-function-paren": [
+			2,
+			"never"
+		],
+		"no-shadow": 1,
+		"space-before-blocks": 2,
+		"react/jsx-uses-react": 1,
+		"react/jsx-uses-vars": 1,
+		"new-cap": 0,
+		"semi": [
+			2,
+			"always"
+		],
+		"no-warning-comments": [
+			2
+		]
+	},
+	"globals": {
+		"__DEVELOPMENT__": true,
+		"__CLIENT__": true,
+		"expect": true,
+		"sinon": true,
+		"log": true
+	}
+}

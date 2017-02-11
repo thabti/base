@@ -1,5 +1,5 @@
 import { mount } from 'enzyme';
-import Example from '../Example';
+import Example from '../index';
 describe('<Example />', () => {
 
 	it('Render Text', () => {
